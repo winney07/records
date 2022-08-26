@@ -567,9 +567,13 @@ hint:
 hint: See "git help submodule" for more information.
 ```
 
-解决：
-
 ```
 git rm --cached docs/.vuepress/dist -f
 ```
+
+
+
+解决：将`.vuepress`目录下的`dist`文件夹删除了，再来执行`git add .`即可
+
+`注：所以每次提交代码到main分支的时候，要将.vuepress/dist目录删除，或者在.ignore中添加这个目录`
 
