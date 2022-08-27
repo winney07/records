@@ -604,9 +604,6 @@ dist/
 
 
 
+暂CNAME不到http://www.winney07.cn/
 
-
-修改为www.winney07.cn
-
-1. 修改`deploy.sh`
-
+[域名使用cname方式跳转不到新域名_域名www，要还是不要，这是个问题](https://blog.csdn.net/weixin_39914499/article/details/110794811)
