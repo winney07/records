@@ -524,26 +524,16 @@ node_modules/
 
 [git怎么取消commit](https://m.php.cn/tool/git/484979.html)
 
+[git 取消commit](https://blog.csdn.net/jinyangbest/article/details/86302973)
+
+[Git撤销本地库Commit的方法](https://blog.csdn.net/u012069313/article/details/123240039)
+
 ```
 git log // 查找要删除的前一次提交的 commit_id
 ```
 
 ```
-git reset --hard commit_id    亲测有效
-```
-
-09823f0e8e8a9e17f43b66d20da6b86ffd1eacb6
-
-
-
-5adecba36b204fbfc827956e0c33122889904f2a
-
-
-
-8dd0b60d4ca04445c68f86bd30595046e44eef8f
-
-```
-git reset --soft HEAD~1
+git reset --hard commit_id    
 ```
 
 报错：
@@ -582,9 +572,41 @@ Thumbs.db
 db.json
 *.log
 node_modules/
-dist/
+dist/  
 .deploy*/
 ```
 
 
+
+#### 自定义域名
+
+1. 增加CNAME
+
+   1. 修改`deploy.sh`
+
+      ```
+      # 如果是发布到自定义域名
+      echo 'blog.winney07.cn' > CNAME    // 临时设置
+      ```
+
+2. DNS解析
+
+   1. 登录阿里云—控制台—域名—域名列表—解析—添加记录
+   2. 添加记录：记录类型：CNAME，主机记录：temp，记录值：winney07.github.io
+   3. 在GitHub的ydocs仓库中，Settings—Pages—Github Pages—Custom domain查看是否有成功
+   4. 如果没有添加成功，手动将`blog.winney07.cn`添加到Custom domain中，访问http://blog.winney07.cn/即可
+   5. 可以勾选Enforce HTTPS，使用HTTPS访问
+
+3. 改回base
+
+   1. 在`.vuepress/config.js`中去除base的设置
+   2. 重新执行yarn deploy
+
+
+
+
+
+修改为www.winney07.cn
+
+1. 修改`deploy.sh`
 

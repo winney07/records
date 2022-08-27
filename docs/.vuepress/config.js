@@ -2,7 +2,7 @@ const moment = require('moment');
 moment.locale('zh-cn')
 
 module.exports = {
-    base:'/ydocs/',
+    // base:'/ydocs/',
     title: 'winney',
     description: 'winney，个人博客，VuePress',
     head: [
