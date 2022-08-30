@@ -604,6 +604,8 @@ dist/
 
 
 
-暂CNAME不到http://www.winney07.cn/
+#### CNAME到http://www.winney07.cn/
+
+注意：要在阿里云控制台-域名列表中，将`www.winney07.cn`的类型由A改为CNAME
 
 [域名使用cname方式跳转不到新域名_域名www，要还是不要，这是个问题](https://blog.csdn.net/weixin_39914499/article/details/110794811)
