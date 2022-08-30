@@ -10,7 +10,11 @@ npm run docs:build
 cd docs/.vuepress/dist
 
 # 如果是发布到自定义域名
-echo 'blog.winney07.cn' > CNAME
+echo 'notes.winney07.cn' > CNAME  
+# 访问路径：https://notes.winney07.cn/
+
+# 不配置自定义域名，则访问路径为http://winney07.github.io/notes
+# 如果winney07.github.io已经CNAME到，www.winney07.cn，则访问路径为：http://www.winney07.cn/notes/
 
 git init
 git add -A
@@ -20,6 +24,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:winney07/ydocs.git master:gh-pages
+git push -f git@github.com:winney07/notes.git master:gh-pages
 
 cd -

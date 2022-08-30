@@ -1,5 +1,5 @@
 {
-  "name": "ydocs",
+  "name": "notes",
   "version": "1.0.0",
   "description": "个人博客搭建",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/winney07/ydocs.git"
+    "url": "git+https://github.com/winney07/notes.git"
   },
   "keywords": [
     "Vuepress",
@@ -20,9 +20,9 @@
   "author": "winney",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/winney07/ydocs/issues"
+    "url": "https://github.com/winney07/notes/issues"
   },
-  "homepage": "https://github.com/winney07/ydocs#readme",
+  "homepage": "https://github.com/winney07/notes#readme",
   "devDependencies": {
     "vuepress": "^1.9.7"
   },

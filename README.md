@@ -1,21 +1,21 @@
-# ydocs
+# notes
 
-VuePress搭建个人博客
+使用VuePress搭建
 
 [VuePress中文网](https://www.vuepress.cn/)
 
-1. 在GitHub中新建ydocs仓库
+1. 在GitHub中新建notes仓库
 
 2. 克隆仓库
 
    ```
-   git clone git@github.com:winney07/ydocs.git
+   git clone git@github.com:winney07/notes.git
    ```
 
 3. 切换到目录
 
    ```
-   cd ydocs
+   cd notes
    ```
 
 4. 初始化
@@ -59,7 +59,7 @@ VuePress搭建个人博客
 
    VuePress 会在 [http://localhost:8080 (opens new window)](http://localhost:8080/)启动一个热重载的开发服务器。
 
-   `http://localhost:8080` 默认访问到的页面是`ydocs/docs/README.md`的内容
+   `http://localhost:8080` 默认访问到的页面是`notes/docs/README.md`的内容
 
 9. 
 
@@ -78,7 +78,7 @@ VuePress搭建个人博客
     └─ package.json
     ```
 
-11. [默认主题配置](https://www.vuepress.cn/theme/default-theme-config.html)，以下代码放在根级 `README.md`，即`ydocs/docs/README.md`
+11. [默认主题配置](https://www.vuepress.cn/theme/default-theme-config.html)，以下代码放在根级 `README.md`，即`notes/docs/README.md`
 
     ```
     ---
@@ -430,7 +430,7 @@ module.exports = {
    ```
    // .vuepress/config.js
    module.exports = {
-       base:'ydocs',
+       base:'/notes/',
    }
    ```
 
@@ -441,15 +441,15 @@ module.exports = {
    ```
    // .vuepress/config.js
    module.exports = {
-       base:'/ydocs/',   // 仓库中的目录名
+       base:'/notes/',   // 仓库中的目录名
    }
    ```
 
-   `注：改了base之后，http://localhost:8080/ydocs，这样可以访问原来的页面
+   `注：改了base之后，http://localhost:8080/notes，这样可以访问原来的页面
 
 3. 新增部署文件(deploy.sh)
 
-   `docs/deploy.sh`：在ydocs目录下新建deploy.sh
+   `docs/deploy.sh`：在notes目录下新建deploy.sh
 
    ```
    #!/usr/bin/env sh
@@ -475,7 +475,7 @@ module.exports = {
    
    # 如果发布到 https://<USERNAME>.github.io/<REPO>
    # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
-   git push -f git@github.com:winney07/ydocs.git master:gh-pages
+   git push -f git@github.com:winney07/notes.git master:gh-pages
    
    cd -
    ```
@@ -494,21 +494,21 @@ module.exports = {
    yarn deploy
    ```
 
-   `提交代码后，可以在ydocs仓库中，看到gh-pages分支`
+   `提交代码后，可以在notes仓库中，看到gh-pages分支`
 
 4. 验证gh-pages
 
    1. 点击仓库的`Settings`，查看`GitHub Pages`，可以看到GitHub Pages已经启用
-   2. 访问https://winney07.github.io/ydocs/即可
+   2. 访问https://winney07.github.io/notes/即可
 
 5. 设置website,便于他人访问
 
 #### 提交项目代码到GitHub
 
-注：要在ydocs根目录添加`.gitignore`文件：
+注：要在notes根目录添加`.gitignore`文件：
 
 ```
-// ydocs/.gitignore
+// notes/.gitignore
 
 .DS_Store
 Thumbs.db
@@ -539,7 +539,7 @@ git reset --hard commit_id
 报错：
 
 ```
-yangyanyi@yangyanyideMacBook-Pro ydocs % git add .
+yangyanyi@yangyanyideMacBook-Pro notes % git add .
 warning: adding embedded git repository: docs/.vuepress/dist
 hint: You've added another git repository inside your current repository.
 hint: Clones of the outer repository will not contain the contents of
@@ -593,7 +593,7 @@ dist/
 
    1. 登录阿里云—控制台—域名—域名列表—解析—添加记录
    2. 添加记录：记录类型：CNAME，主机记录：temp，记录值：winney07.github.io
-   3. 在GitHub的ydocs仓库中，Settings—Pages—Github Pages—Custom domain查看是否有成功
+   3. 在GitHub的notes仓库中，Settings—Pages—Github Pages—Custom domain查看是否有成功
    4. 如果没有添加成功，手动将`blog.winney07.cn`添加到Custom domain中，访问http://blog.winney07.cn/即可
    5. 可以勾选Enforce HTTPS，使用HTTPS访问
 

@@ -2,12 +2,12 @@ const moment = require('moment');
 moment.locale('zh-cn')
 
 module.exports = {
-    // base:'/ydocs/',
+    // base:'/notes/',   // 如果在deploy.sh中配置自定义域名CNAME，则不设置base
     title: 'winney',
-    description: 'winney，个人博客，VuePress',
+    description: 'winney，笔记，VuePress',
     head: [
       ['link', { rel: 'icon', href: '/assets/img/favicon-32x32-next.png' }],
-      ['meta', { name: 'keywords', content: 'winney，个人博客，VuePress' }],
+      ['meta', { name: 'keywords', content: 'winney，笔记，VuePress' }],
       ['meta', { name: 'author', content: 'winney' }],
     ],
     themeConfig: {
