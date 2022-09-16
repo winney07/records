@@ -16,13 +16,22 @@ module.exports = {
       nav: [
         { text: '首页', link: '/' },
         { text: '关于我们', link: '/about/' },
-        { text: '测试', link: '/test.html' },
+        { 
+          text: '系统/软件/网站', 
+          lariaLabel: '软件/网站下拉列表',
+          items: [
+              { text: 'Macbook', link: '/macbook/' },
+              { text: '常见问题', link: '/common/' },
+              { text: '网站', link: '/website/' },
+              { text: '软件', link: '/software/' }
+          ]
+        },
         {
-            text: '语言',
-            ariaLabel: '语言下拉列表',
+            text: '日常',
+            ariaLabel: '日常下拉列表',
             items: [
-                { text: '中文', link: '/language/chinese/' },
-                { text: '英文', link: '/language/english/' }
+                { text: '日常', link: '/daily/daily/' },
+                { text: '兴趣爱好', link: '/daily/hobby/' }
             ]
         }
       ],
@@ -33,41 +42,86 @@ module.exports = {
       //  // ['/about/', '关于'],
       //   ['/test', '测试一下']
       // ]
-      // sidebar: [  侧边栏分组
-      //   {
-      //     title: '关于我们',   // 必要的
-      //     path: '/about/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-      //     collapsable: false, // 可选的, 默认值是 true,
-      //     sidebarDepth: 1,    // 可选的, 默认值是 1
-      //     children: [
-      //       '/about/about1'
-      //     ]
-      //   },
-      //   {
-      //     title: '联系我们',   // 必要的
-      //     path: '/contact/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-      //     collapsable: false, // 可选的, 默认值是 true,
-      //     sidebarDepth: 1,    // 可选的, 默认值是 1
-      //     children: [
-      //       '/contact/contact1'
-      //     ]
-      //   },
-      // ]
+      sidebar: [   // 侧边栏分组
+        {
+          title: 'Macbook',   // 必要的
+          path: '/macbook/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+          // collapsable: false, // 可选的, 默认值是 true,
+          sidebarDepth: 1,    // 可选的, 默认值是 1
+          children: [
+            '/macbook/shortcut',
+            '/macbook/guide',
+          ]
+        },
+        {
+          title: '软件',   // 必要的
+          path: '/software/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+          // collapsable: false, // 可选的, 默认值是 true,
+          sidebarDepth: 1,    // 可选的, 默认值是 1
+          children: [
+            '/software/mobile',
+            '/software/pc',
+          ]
+        },
+        {
+          title: '网站',   // 必要的
+          path: '/website/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+          // collapsable: false, // 可选的, 默认值是 true,
+          sidebarDepth: 1,    // 可选的, 默认值是 1
+          children: [
+            '/website/study'
+          ]
+        },
+        {
+          title: '常见问题',   
+          path: '/common/',     
+          sidebarDepth: 1,   
+        },
+        {
+          title: '日常',   
+          path: '/daily/',     
+          sidebarDepth: 1,   
+          children: [
+            '/daily/daily/',
+          ]
+        },
+        {
+          title: '兴趣爱好',   
+          path: '/daily/hobby/',     
+          sidebarDepth: 1, 
+          children: [
+            '/daily/hobby/photography',
+            '/daily/hobby/drawing',
+          ]  
+        },
+
+      ]
 
       // 多个侧边栏
-      sidebar:{
-        "/about/": [
-          "about1",
-          "about2",
-          "about3",
-        ],
-        "/contact/": [
-          "contact1",
-          "contact2",
-          "contact3",
-        ],
-        "/":[]  // 这个要放在最后面，如果放在数组最前面，匹配到它，后面的都不被匹配到，后面写的就不起作用了
-      },
+      // sidebar:{
+      //   "/software/": [
+      //     "mobile",
+      //     "pc",
+      //   ],
+      //   "/website/": [
+      //     "study",
+      //   ],
+      //   "/macbook/": [
+      //     "shortcut",
+      //     "guide",
+      //   ],
+      //   "/about/": [
+      //     "about1",
+      //     "about2",
+      //     "about3",
+      //   ],
+      //   "/contact/": [
+      //     "contact1",
+      //     "contact2",
+      //     "contact3",
+      //   ],
+      //   "/":[]  // 这个要放在最后面，如果放在数组最前面，匹配到它，后面的都不被匹配到，后面写的就不起作用了
+      // },
       
     },
 
