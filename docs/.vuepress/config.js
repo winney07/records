@@ -51,6 +51,7 @@ module.exports = {
           children: [
             '/macbook/shortcut',
             '/macbook/guide',
+            '/macbook/software',
           ]
         },
         {
