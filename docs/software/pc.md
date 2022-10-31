@@ -5,6 +5,7 @@
 - Snipaste——截图/取色
 - Typora——md笔记
 - Apifox——接口调试
+- ApiPost——接口调试
 - everything——快速查找文件
 - Visual Studio Code——代码编辑器（配置成sublime的快捷键）
 - Beyond compare——代码对比工具
@@ -17,6 +18,7 @@
 - NVM
 - TortoiseSVN——SVN代码提交工具
 - Wampserver32——PHP项目配置环境
+- phpstudy_pro——apache环境环境项目搭建
 
 * [ColorMania](https://colormania.en.softonic.com) （屏幕拾色器）
 * jcpicker（取色工具-前端快速拾取色器）
@@ -105,19 +107,32 @@
 - 谷歌翻译
 - 前端助手
 
+#### 原型
+
+- Axure 
+- 即时设计
 
 
-#### 视频
+
+#### 视频播放
 
 - 金狮视频播放器
 
+#### 视频制作
 
+- 剪映专业版
 
 #### 笔记软件
 
 - 有道云笔记
 - 印象笔记
 - 敬业签
+
+#### 网盘
+
+- 百度网盘
+
+
 
 #### 其他
 
