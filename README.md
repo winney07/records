@@ -1,5 +1,9 @@
 # notes
 
+`修改了配置文件config，需要重启`
+
+
+
 使用VuePress搭建
 
 [VuePress中文网](https://www.vuepress.cn/)

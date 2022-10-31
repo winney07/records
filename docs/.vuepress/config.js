@@ -17,6 +17,15 @@ module.exports = {
         { text: '首页', link: '/' },
         { text: '关于我们', link: '/about/' },
         { 
+          text: '历史·政治·经济', 
+          lariaLabel: '学习下拉列表',
+          items: [
+              { text: '历史', link: '/history/' },
+              { text: '政治', link: '/politics/' },
+              { text: '经济', link: '/economics/' },
+          ]
+        },
+        { 
           text: '系统/软件/网站', 
           lariaLabel: '软件/网站下拉列表',
           items: [
@@ -84,6 +93,16 @@ module.exports = {
           sidebarDepth: 1,   
           children: [
             '/daily/daily/',
+          ]
+        },
+        {
+          title: '历史·政治·经济',   
+          path: '/history/',     
+          sidebarDepth: 1,   
+          children: [
+            '/history/',
+            '/politics/',
+            '/economics/',
           ]
         },
         {
