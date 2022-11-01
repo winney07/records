@@ -40,6 +40,7 @@ module.exports = {
             ariaLabel: '日常下拉列表',
             items: [
                 { text: '日常', link: '/daily/daily/' },
+                { text: '快捷键', link: '/daily/shortcut/' },
                 { text: '兴趣爱好', link: '/daily/hobby/' }
             ]
         }
@@ -93,15 +94,31 @@ module.exports = {
           sidebarDepth: 1,   
           children: [
             '/daily/daily/',
+            '/daily/shortcut/',
           ]
         },
         {
-          title: '历史·政治·经济',   
+          title: '历史',   
           path: '/history/',     
           sidebarDepth: 1,   
           children: [
             '/history/',
+            '/history/difficult',
+          ]
+        },
+        {
+          title: '政治',   
+          path: '/politics/',     
+          sidebarDepth: 1,   
+          children: [
             '/politics/',
+          ]
+        },
+        {
+          title: '经济',   
+          path: '/economics/',     
+          sidebarDepth: 1,   
+          children: [
             '/economics/',
           ]
         },
