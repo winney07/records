@@ -90,6 +90,7 @@
 * KKSetup_2.7.5.2——录像机   屏幕录像工具
 * [Mockplus](https://www.mockplus.cn/?home=1)——原型设计   
 * [MindMaster]( http://www.edrawsoft.cn/mindmaster/)——思维导图  
+* LICEcap——动画屏幕录制软件
 
 #### Mac 解压rar文件
 
