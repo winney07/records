@@ -103,6 +103,7 @@ module.exports = {
           sidebarDepth: 1,   
           children: [
             '/history/',
+            '/history/difficult/',
           ]
         },
         {
