@@ -129,6 +129,7 @@ module.exports = {
           children: [
             '/daily/hobby/photography',
             '/daily/hobby/drawing',
+            '/daily/hobby/movie',
           ]  
         },
 
