@@ -2,6 +2,10 @@
 
 #### [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236)—Apple官网
 
+Command等于Ctrl
+
+Option等于Alt
+
 浏览器缩放比例：
 
 ```

@@ -96,6 +96,7 @@ module.exports = {
           children: [
             '/daily/daily/',
             '/daily/shortcut/',
+            '/daily/hobby/'
           ]
         },
         {
