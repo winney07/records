@@ -40,6 +40,14 @@
 
 
 
+#### 医药
+
+口腔溃疡
+
+![意可贴](https://raw.githubusercontent.com/winney07/Images/main/notes/daily/%E6%84%8F%E5%8F%AF%E8%B4%B4.jpg)
+
+
+
 ### 银行卡
 
 [银联](https://haokan.baidu.com/v?vid=12850358205879404215&pd=bjh&fr=bjhauthor&type=video)
@@ -82,3 +90,4 @@ LPR：贷款基础利率（Loan Prime Rate）
 大度8开:`420mm*285mm`
 
 多少开，就是分多少份
+
