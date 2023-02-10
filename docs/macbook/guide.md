@@ -264,3 +264,21 @@ RAR Extractor Free
 5. 选择`“电话铃声”`
 6. 选择`“导出”`
 7. 导出成功后，选择`“设置为铃声”`，或者在手机的`设置里的“声音”中选择音乐文件`
+
+
+
+#### iPhone中的照片没有删除按钮，怎么解决？
+
+[iphone中的照片没有删除按钮，怎么解决？今天教你一招，超级简单](https://www.douyin.com/video/6946105551994637576)
+
+1. 设置——iCloud——照片——iCloud照片（开启）
+2. 会弹出‘从“访达”同步的照片将会被移除’的弹窗——选择“移除照片”——
+
+
+
+
+
+[iOS极速刷机助手](http://ios.wpsppt.com/)
+
+[下载和使用 Windows 10 版 iTunes](https://support.apple.com/zh-cn/HT210384)
+
