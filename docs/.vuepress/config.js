@@ -6,12 +6,12 @@ module.exports = {
     title: 'winney',
     description: 'winney，笔记，VuePress',
     head: [
-      ['link', { rel: 'icon', href: '/assets/img/favicon-32x32-next.png' }],
+      ['link', { rel: 'icon', href: '/assets/img/favicon-32x32.png' }],
       ['meta', { name: 'keywords', content: 'winney，笔记，VuePress' }],
       ['meta', { name: 'author', content: 'winney' }],
     ],
     themeConfig: {
-      logo: '/assets/img/logo.jpeg',
+      logo: '/assets/img/header.jpg',
       lastUpdated: '更新时间', // string | boolean
       nav: [
         { text: '首页', link: '/' },

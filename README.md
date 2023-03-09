@@ -1,8 +1,10 @@
 # notes
 
-`修改了配置文件config，需要重启`
+访问地址：https://notes.winney07.cn/
 
+`修改了配置文件config，需要yarn docs:dev重启`
 
+部署：yarn deploy
 
 使用VuePress搭建
 
