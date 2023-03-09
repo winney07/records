@@ -7,6 +7,7 @@ module.exports = {
     description: 'winney，笔记，VuePress',
     head: [
       ['link', { rel: 'icon', href: '/assets/img/favicon-32x32.png' }],
+      ['link', { rel: 'apple-touch-icon',sizes:'180x180', href: '/assets/img/header.jpg' }],
       ['meta', { name: 'keywords', content: 'winney，笔记，VuePress' }],
       ['meta', { name: 'author', content: 'winney' }],
     ],
@@ -130,6 +131,7 @@ module.exports = {
           path: '/daily/hobby/',     
           sidebarDepth: 1, 
           children: [
+            '/daily/hobby/coffee',
             '/daily/hobby/photography',
             '/daily/hobby/drawing',
             '/daily/hobby/movie',

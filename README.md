@@ -615,3 +615,19 @@ dist/
 注意：要在阿里云控制台-域名列表中，将`www.winney07.cn`的类型由A改为`CNAME`
 
 [域名使用cname方式跳转不到新域名_域名www，要还是不要，这是个问题](https://blog.csdn.net/weixin_39914499/article/details/110794811)
+
+
+
+
+
+#### 添加apple-touch-icon
+
+`/docs/.vuepress/config.js`：
+
+```
+head: [
+  ['link', { rel: 'apple-touch-icon',sizes:'180x180', href: '/assets/img/header.jpg' }],
+],
+```
+
+> 苹果手机将网页添加到主屏幕时，显示的图标
