@@ -3,7 +3,7 @@ moment.locale('zh-cn')
 
 module.exports = {
     // base:'/notes/',   // 如果在deploy.sh中配置自定义域名CNAME，则不设置base
-    title: 'winney',
+    // title: 'winney',
     description: 'winney，笔记，VuePress',
     head: [
       ['link', { rel: 'icon', href: '/assets/img/favicon-32x32.png' }],
