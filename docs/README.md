@@ -14,14 +14,38 @@ tagline:
 
 <p style="text-align:center;margin-top:0">Welcome to my notes.</p>
 
-* MacBook
-    * [使用技巧](/macbook/phone) 
-    * [快捷键](/macbook/guide) 
-    * [使用指南](/macbook/shortcut) 
-    * [软件](/macbook/software) 
+* **MacBook**
 
-[软件](/software/)
+    · [使用技巧](/macbook/phone) · [快捷键](/macbook/guide) · [使用指南](/macbook/shortcut) · [软件](/macbook/software) 
 
-[网站](/website/)
+* **兴趣爱好**
 
+    · [咖啡](/daily/hobby/coffee) · [摄影](/daily/hobby/photography) · [绘画](/daily/hobby/drawing) · [电影](/daily/hobby/movie)  
 
+* **网站**  
+
+    · [学习网站](/website/study/) · [收藏的网站](/website/website/)
+
+* **日常**
+
+    · [日常](/daily/daily) · [快捷键](/daily/shortcut)
+
+* **软件**
+
+    · [手机软件](/software/mobile)  · [电脑软件](/software/pc)
+
+* **常见问题**
+
+    · [常见问题](/common)
+
+* **历史**
+
+    · [历史](/history) · [易读错](/history/difficult/)
+
+* **政治**
+
+    · [政治](/politics)
+
+* **经济**
+
+    · [经济](/economics)
