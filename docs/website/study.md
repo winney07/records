@@ -22,7 +22,7 @@ App：cambly
 
 ##### 单词和阅读学习：
 
-宝藏网站：https://magazinelib.com 
+宝藏网站：[https://magazinelib.com](https://magazinelib.com ) 
 
 鸠摩搜书
 

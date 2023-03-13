@@ -1,9 +1,9 @@
 # 兴趣爱好
 
-[咖啡](/daily/hobby/coffee)
+[咖啡](/hobby/coffee)
 
-[摄影](/daily/hobby/photography)
+[摄影](/hobby/photography)
 
-[绘画](/daily/hobby/drawing)
+[绘画](/hobby/drawing)
 
-[电影](/daily/hobby/movie)
+[电影](/hobby/movie)

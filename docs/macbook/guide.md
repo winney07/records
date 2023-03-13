@@ -161,12 +161,12 @@
 参考博客：
 
 - [Mac远程桌面连接](https://zhuanlan.zhihu.com/p/34202380)
-  - 链接：https://pan.baidu.com/s/1htQKmTA 密码：wmcy
+  - 链接：[https://pan.baidu.com/s/1htQKmTA](https://pan.baidu.com/s/1htQKmTA) 密码：wmcy
 
 - [在Mac上使用Microsoft Remote Desktop](https://www.jianshu.com/p/9cc90361f37a)
-  - 链接: https://pan_baidu_com/s/1t8lNg1zSDTVJNdLWqGDYCQ 密码: mamu
+  - 链接: [https://pan_baidu_com/s/1t8lNg1zSDTVJNdLWqGDYCQ](https://pan_baidu_com/s/1t8lNg1zSDTVJNdLWqGDYCQ) 密码: mamu
 - [教你免费安装官方 Apple Remote Desktop 洗白官方Remote Desktop for Mac](https://blog.csdn.net/csdn100861/article/details/51017034)
-  - 链接: http://pan.baidu.com/s/1hrBYDGK  密码: wpy8
+  - 链接: [http://pan.baidu.com/s/1hrBYDGK](http://pan.baidu.com/s/1hrBYDGK)  密码: wpy8
   - 然后需要输入序列号，用户名以及组织。
   - 在此提供几个码
   - 这里的重点就是：系统一定要是 英文 的！
@@ -179,13 +179,13 @@
 
 [Microsoft Remote Desktop (Mac)](https://mac.softpedia.com/get/Utilities/Microsoft-Remote-Desktop-Connection.shtml)
 
-https://itunes.apple.com/us/app/microsoft-remote-desktop/id715768417?mt=12
+[microsoft-remote-desktop](https://itunes.apple.com/us/app/microsoft-remote-desktop/id715768417?mt=12)
 
-https://www.macz.com/mac/1004.html?id=MTMwMjcxJl8mMjcuMTg2LjExLjk%3D
+[Microsoft Remote Desktop for Mac(远程桌面连接工具) 10.8.1正式版](https://www.macz.com/mac/1004.html?id=MTMwMjcxJl8mMjcuMTg2LjExLjk%3D)
 
 [远程桌面客户端](https://docs.microsoft.com/zh-cn/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients)
 
-破解版：https://install.appcenter.ms/orgs/rdmacios-k2vy/apps/microsoft-remote-desktop-for-mac/distribution_groups/all-users-of-microsoft-remote-desktop-for-mac
+破解版：[microsoft-remote-desktop-for-mac](https://install.appcenter.ms/orgs/rdmacios-k2vy/apps/microsoft-remote-desktop-for-mac/distribution_groups/all-users-of-microsoft-remote-desktop-for-mac)
 
 
 
