@@ -18,13 +18,15 @@
 
 重复练习，使用可可粉
 
-EHS咖啡西点培训学院：https://www.ehs-academy.cn/
+[EHS咖啡西点培训学院](https://www.ehs-academy.cn/)
 
-中国咖啡网：https://www.gafei.com/
+[中国咖啡网](https://www.gafei.com/)
 
-https://www.baristahustle.com/blog/wet-weiss-for-espresso/
+[Wet Weiss for Espresso](https://www.baristahustle.com/blog/wet-weiss-for-espresso/)
 
-https://www.xiaohongshu.com/explore/63b413b8000000001c0046a5
+[咖啡控了解咖啡知识的5个学习网站](https://www.xiaohongshu.com/explore/63b413b8000000001c0046a5)
+
+
 
 - 使用充分冷藏的牛奶更适合去打发绵密的奶泡，牛奶打发前的温度最好保持在1度到5度之间
 - 在前期发泡阶段不宜太多进气，否则容易让奶泡体积过厚
@@ -37,7 +39,7 @@ https://www.xiaohongshu.com/explore/63b413b8000000001c0046a5
 
 ------
 
-视频：https://www.bilibili.com/video/BV1bJ411B73u/
+[视频链接](https://www.bilibili.com/video/BV1bJ411B73u/)
 
 - 使用容量小的打奶泡，容量大的浪费牛奶
 - 居家，选450~500ml的拉花缸

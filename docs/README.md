@@ -14,7 +14,7 @@ tagline:
 
 <p style="text-align:center;margin-top:0">Welcome to my notes.</p>
 
-* Macbook
+* MacBook
     * [使用技巧](/macbook/phone) 
     * [快捷键](/macbook/guide) 
     * [使用指南](/macbook/shortcut) 

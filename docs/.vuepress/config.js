@@ -10,6 +10,7 @@ module.exports = {
       ['link', { rel: 'apple-touch-icon',sizes:'180x180', href: '/assets/img/header.jpg' }],
       ['meta', { name: 'keywords', content: 'winney，笔记，VuePress' }],
       ['meta', { name: 'author', content: 'winney' }],
+      ['meta', { name: 'viewport', content: 'width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no' }],
     ],
     themeConfig: {
       logo: '/assets/img/header.jpg',
@@ -42,9 +43,18 @@ module.exports = {
             items: [
                 { text: '日常', link: '/daily/daily/' },
                 { text: '快捷键', link: '/daily/shortcut/' },
-                { text: '兴趣爱好', link: '/daily/hobby/' }
             ]
-        }
+        },
+        {
+          text: '兴趣爱好',
+          ariaLabel: '兴趣爱好下拉列表',
+          items: [
+              { text: '咖啡', link: '/hobby/coffee/' },
+              { text: '摄影', link: '/hobby/photography/' },
+              { text: '绘画', link: '/hobby/drawing/' },
+              { text: '电影', link: '/hobby/movie/' }
+          ]
+      }
       ],
       // sidebar: "auto"
       // sidebar: [
@@ -54,6 +64,10 @@ module.exports = {
       //   ['/test', '测试一下']
       // ]
       sidebar: [   // 侧边栏分组
+        {
+          title: '首页',   
+          path: '/', 
+        },
         {
           title: 'Macbook',   // 必要的
           path: '/macbook/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
@@ -67,29 +81,25 @@ module.exports = {
           ]
         },
         {
-          title: '软件',   // 必要的
-          path: '/software/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-          // collapsable: false, // 可选的, 默认值是 true,
-          sidebarDepth: 1,    // 可选的, 默认值是 1
+          title: '兴趣爱好',   
+          path: '/hobby/',     
+          sidebarDepth: 1, 
           children: [
-            '/software/mobile',
-            '/software/pc',
-          ]
+            '/hobby/coffee',
+            '/hobby/photography',
+            '/hobby/drawing',
+            '/hobby/movie',
+          ]  
         },
         {
-          title: '网站',   // 必要的
-          path: '/website/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-          // collapsable: false, // 可选的, 默认值是 true,
-          sidebarDepth: 1,    // 可选的, 默认值是 1
+          title: '网站',  
+          path: '/website/',    
+          // collapsable: false, 
+          sidebarDepth: 1,  
           children: [
             '/website/study',
             '/website/website'
           ]
-        },
-        {
-          title: '常见问题',   
-          path: '/common/',     
-          sidebarDepth: 1,   
         },
         {
           title: '日常',   
@@ -98,8 +108,22 @@ module.exports = {
           children: [
             '/daily/daily/',
             '/daily/shortcut/',
-            '/daily/hobby/'
           ]
+        },
+        {
+          title: '软件',  
+          path: '/software/', 
+          // collapsable: false,
+          sidebarDepth: 1,   
+          children: [
+            '/software/mobile',
+            '/software/pc',
+          ]
+        },
+        {
+          title: '常见问题',   
+          path: '/common/',     
+          sidebarDepth: 1,   
         },
         {
           title: '历史',   
@@ -126,17 +150,7 @@ module.exports = {
             '/economics/',
           ]
         },
-        {
-          title: '兴趣爱好',   
-          path: '/daily/hobby/',     
-          sidebarDepth: 1, 
-          children: [
-            '/daily/hobby/coffee',
-            '/daily/hobby/photography',
-            '/daily/hobby/drawing',
-            '/daily/hobby/movie',
-          ]  
-        },
+        
 
       ]
 
