@@ -141,3 +141,6 @@
 - 2345看图王
 - i4Tools
 - iTunes
+- [mumu模拟器](https://mumu.163.com/)
+- [逍遥模拟器](https://www.xyaz.cn/)
+

@@ -6,11 +6,11 @@ module.exports = {
     // title: 'winney',
     description: 'winney，笔记，VuePress',
     head: [
-      ['link', { rel: 'icon', href: '/assets/img/favicon-32x32.png' }],
+      ['link', { rel: 'icon', href: '/assets/img/favicon-32x32.ico' }],
       ['link', { rel: 'apple-touch-icon',sizes:'180x180', href: '/assets/img/header.jpg' }],
       ['meta', { name: 'keywords', content: 'winney，笔记，VuePress' }],
       ['meta', { name: 'author', content: 'winney' }],
-      ['meta', { name: 'viewport', content: 'width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no' }],
+      ['meta', { name: 'viewport', content: 'width=device-width; initial-scale=1.0; user-scalable=no' }],
     ],
     themeConfig: {
       logo: '/assets/img/header.jpg',
