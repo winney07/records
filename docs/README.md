@@ -14,6 +14,18 @@ tagline:
 
 <p style="text-align:center;margin-top:0">Welcome to my notes.</p>
 
+* **书籍**
+
+    · [电影](/book) · 
+
+* **小红书**
+
+    · [电影](/XiaoHongShu/movie) · 
+
+* **下厨房**
+
+    · [美食](/XiaChuFang/menu) · 
+
 * **MacBook**
 
     · [使用技巧](/macbook/phone) · [快捷键](/macbook/guide) · [使用指南](/macbook/shortcut) · [软件](/macbook/software) 

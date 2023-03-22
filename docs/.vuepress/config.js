@@ -69,6 +69,22 @@ module.exports = {
           path: '/', 
         },
         {
+          title: '小红书',   
+          path: '/XiaoHongShu/',     
+          sidebarDepth: 1, 
+          children: [
+            '/XiaoHongShu/movie/',
+          ]  
+        },
+        {
+          title: '下厨房',   
+          path: '/XiaChuFang/',     
+          sidebarDepth: 1, 
+          children: [
+            '/XiaChuFang/menu/',
+          ]  
+        },
+        {
           title: 'Macbook',   // 必要的
           path: '/macbook/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
           // collapsable: false, // 可选的, 默认值是 true,
