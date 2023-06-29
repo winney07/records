@@ -7,7 +7,7 @@ tagline:
 
 
 <div style="position:relative;">
-    <img src="https://raw.githubusercontent.com/winney07/notes/main/docs/.vuepress/public/assets/img/bg.jpeg" alt="头图"/>
+    <img src="https://raw.githubusercontent.com/winney07/notes/main/docs/.vuepress/public/assets/img/bg2.jpeg" alt="头图"/>
     <img src="https://raw.githubusercontent.com/winney07/notes/main/docs/.vuepress/public/assets/img/header.jpg" alt="头像" style="position:absolute;left:50%;margin-left:-40px;bottom:-30px;width:80px;border-radius:50%;border:3px solid #fff;"/>
 </div>
 <h3 style="text-align:center;margin-bottom:0">winney</h3>
