@@ -1,10 +1,48 @@
 # notes
 
+#### 处理依赖包之间版本冲突的报错
+
+```
+$ yarn docs:dev
+yarn run v1.22.18
+$ vuepress dev docs
+H:\Github\notes\node_modules\vue-server-renderer\index.js:8
+  throw new Error(
+  ^
+
+Error:
+
+Vue packages version mismatch:
+
+- vue@2.7.14
+- vue-server-renderer@2.7.10
+
+This may cause things to work incorrectly. Make sure to use the same version for both.
+
+```
+
+解决方法：
+
+```
+yarn upgrade
+```
+
+
+
 访问地址：https://notes.winney07.cn/
 
 `修改了配置文件config，需要yarn docs:dev重启`
 
-部署：yarn deploy
+部署：`yarn deploy`
+
+[如何将 VuePress 升级为 VitePress](https://fiime.cn/blog/269367)
+
+[vuepress升级成vitepress](https://juejin.cn/post/7021062842790969381)
+
+```
+
+vitepress upgrade
+```
 
 使用VuePress搭建
 

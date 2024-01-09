@@ -6,7 +6,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "deploy":"bash deploy.sh",
+    "deploy": "bash deploy.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,9 +24,11 @@
   },
   "homepage": "https://github.com/winney07/notes#readme",
   "devDependencies": {
-    "vuepress": "^1.9.7"
+    "vuepress": "^1.9.10"
   },
   "dependencies": {
-    "moment": "^2.29.4"
+    "moment": "^2.29.4",
+    "tinymce": "^6.5.1",
+    "vant": "^4.6.0"
   }
 }

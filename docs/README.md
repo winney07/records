@@ -7,8 +7,8 @@ tagline:
 
 
 <div style="position:relative;">
-    <img src="/assets/img/bg.jpeg" alt="头图"/>
-    <img src="/assets/img/header.jpg" alt="头像" style="position:absolute;left:50%;margin-left:-33px;bottom:-16px;width:60px;border-radius:50%;border:3px solid #fff;"/>
+    <img src="https://notes.winney07.cn/assets/img/bg.jpeg" alt="头图"/>
+    <img src="https://notes.winney07.cn/assets/img/header.jpg" alt="头像" style="position:absolute;left:50%;margin-left:-33px;bottom:-16px;width:60px;border-radius:50%;border:3px solid #fff;"/>
 </div>
 <h3 style="text-align:center;margin-bottom:0; margin-top:10px;font-size:1.15rem">winney</h3>
 
