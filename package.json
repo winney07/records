@@ -1,0 +1,36 @@
+{
+  "name": "records",
+  "version": "1.0.0",
+  "description": "个人博客搭建",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winney07/records.git"
+  },
+  "keywords": [
+    "Vuepress",
+    "个人博客"
+  ],
+  "author": "winney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/winney07/records/issues"
+  },
+  "homepage": "https://github.com/winney07/records#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.10"
+  },
+  "dependencies": {
+    "moment": "^2.29.4",
+    "tinymce": "^6.5.1"
+  },
+  "resolutions": {
+    "terser": "3.14.1"
+  }
+}
